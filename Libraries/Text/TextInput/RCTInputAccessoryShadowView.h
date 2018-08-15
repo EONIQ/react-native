@@ -5,13 +5,8 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-#import <UIKit/UIKit.h>
+#import <React/RCTShadowView.h>
 
-@class RCTBridge;
-@class RCTInputAccessoryViewContent;
-
-@interface RCTInputAccessoryView : UIView
-
-- (instancetype)initWithBridge:(RCTBridge *)bridge;
+@interface RCTInputAccessoryShadowView : RCTShadowView
 
 @end
